@@ -11,7 +11,7 @@ Este proyecto está centrado principalmente en hacer que el usuario mejore sus h
 
 Hemos decidido dividirnos en dos grupos para las dos principales funcionalidades.
 
-|             Miembro           |   Rol    | Funcionalidades asignadas |
+|             Miembro           |   Rol    | Funciones y funcionalidades asignadas |
 |-------------------------------|----------|---------------------------|
 | Daniel Vicente Ramos          |   CEO    | Responsable principal. Coordina y representa al equipo. Se encarga de gestionar el ciclo de vida completo de la aplicación, desde la arquitectura e integración de los módulos hasta el testing y la documentación general. Formará parte del grupo que se encargará de la funcionalidad de el/los minijuego(s). |
 | Jesús Senra Paz               |   COO    | Encargado de la arquitectura y validación funcional de la aplicación   |
