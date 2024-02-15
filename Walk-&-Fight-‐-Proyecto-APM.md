@@ -14,9 +14,9 @@ Hemos decidido dividirnos en dos grupos para las dos principales funcionalidades
 |             Miembro           |   Rol    | Funciones y funcionalidades asignadas |
 |-------------------------------|----------|---------------------------|
 | Daniel Vicente Ramos          |   CEO    | Responsable principal. Coordina y representa al equipo. Se encarga de gestionar el ciclo de vida completo de la aplicación, desde la arquitectura e integración de los módulos hasta el testing y la documentación general. Formará parte del grupo que se encargará de la funcionalidad de el/los minijuego(s). |
-| Jesús Senra Paz               |   COO    | Encargado de la arquitectura y validación funcional de la aplicación   |
-| Caetán Tojeiro Carpente       |   CTO    | CEO en funciones en caso de que el principal no esté disponible. Responsable del uso de sensores, geolocalización y APIs de terceros. Para este caso práctico, será encargado de investigar, analizar y validar la integración del GPS, de la cámara, del micrófono y del acelerómetro     |
-| Ulises Jaime Soria Matamoros  |   CXO    | Responsable de la usabilidad, UI y UX de la aplicación. Encargado de la integración de funcionalidades sociales   |
+| Jesús Senra Paz               |   COO    | Encargado de la arquitectura y validación funcional de la aplicación. Formará parte del grupo que se encargará del mapa y localización, así como de la integración de los sensores   |
+| Caetán Tojeiro Carpente       |   CTO    | CEO en funciones en caso de que el principal no esté disponible. Responsable del uso de sensores, geolocalización y APIs de terceros. Para este caso práctico, será encargado de investigar, analizar y validar la integración del GPS, de la cámara, del micrófono y del acelerómetro, así como del mapa. Formará parte del grupo que se encargará del mapa y localización, así como de la integración de los sensores     |
+| Ulises Jaime Soria Matamoros  |   CXO    | Responsable de la usabilidad, UI y UX de la aplicación. Encargado de la integración de funcionalidades sociales. Formará parte del grupo que se encargará de la funcionalidad de el/los minijuego(s)   |
 
 Todos los miembros son además responsables de la documentación de su área.
 
