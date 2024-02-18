@@ -122,7 +122,9 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
  
 ![APM](https://github.com/DanielV-source/waf/assets/19588029/1035e6d3-4ce9-489e-896f-a0022bbee92d)
 
-
+- Las líneas punteadas son conexiones a APIs externas 
+- Las líneas continuas son conexiones entre la aplicación y los servicios propios en la nube de la aplicación 
+- La línea con las flechas indica el uso del hardware del smartphone por parte de la aplicación 
 
 [1] https://www.coruna.gal/descarga/1453722307416/Distribucion-de-la-poblacion-municipal-segun-sexo-y-edad.pdf 
 
