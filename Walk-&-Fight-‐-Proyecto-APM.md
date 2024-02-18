@@ -75,7 +75,7 @@ Se mantendrá el nivel de cada jugador, podrá visualizar sus estadísticas e in
 
 * Saga PROFESOR LAYTON: Retos mentales y puzles. Es un juego que sigue una historia, pero no requiere ningún tipo de actividad física (Figura 1). 
 
-* POKEMÓN GO: Es una aplicación basada en el juego Pokémon en donde los jugadores recorren las calles de su población en busca de criaturas peleas Pokémon. El juego requiere de actividad física pero no demanda ningún tipo de reto (Figura 2). 
+* POKÉMON GO: Es una aplicación basada en el juego Pokémon en donde los jugadores recorren las calles de su población en busca de criaturas peleas Pokémon. El juego requiere de actividad física pero no demanda ningún tipo de reto (Figura 2). 
 
 
 ![Sin título1](https://github.com/DanielV-source/waf/assets/19588029/10bd4918-8355-4b87-8db3-d221c1433802)
@@ -108,7 +108,7 @@ Se mantendrá el nivel de cada jugador, podrá visualizar sus estadísticas e in
 
 ###  Análisis de mercado 
 
-No hay ninguna aplicación similar en el mercado y esto puede ser una oportunidad para hacerse un hueco en el mismo. Si analizamos las aplicaciones que se basan en el ejercicio físico (NEXT TRACK, ORUXMAPS GP), parten de 100.000 descargas y son aptas para todos los públicos. En cuanto a retos mentales, existen aplicaciones de puzles, como la saga PROFESOR LAYTON, que ronda las 100.000 descargas con una puntuación excelente y cuenta con PEGI 3. Finalmente, si vemos aquellas que relacionan el ejercicio físico junto con juegos (ZOMBIES RUN, POKEMÓN GO) rondarían entre 1 millón de descargas y están dirigidos a un público mayor de 13 años.  
+No hay ninguna aplicación similar en el mercado y esto puede ser una oportunidad para hacerse un hueco en el mismo. Si analizamos las aplicaciones que se basan en el ejercicio físico (NEXT TRACK, ORUXMAPS GP), parten de 100.000 descargas y son aptas para todos los públicos. En cuanto a retos mentales, existen aplicaciones de puzles, como la saga PROFESOR LAYTON, que ronda las 100.000 descargas con una puntuación excelente y cuenta con PEGI 3. Finalmente, si vemos aquellas que relacionan el ejercicio físico junto con juegos (ZOMBIES RUN, POKÉMON GO) rondarían entre 1 millón de descargas y están dirigidos a un público mayor de 13 años.  
 
 Dentro del análisis exhaustivo de las principales debilidades y fortalezas en el desarrollo de nuestro juego, hemos identificado que uno de los desafíos más significativos radica en la diversidad y la particular rigidez de nuestro público objetivo. Este grupo se muestra dividido en sus intereses y preferencias, lo que representa un obstáculo considerable, ya que pueden mostrar resistencia a la hora de explorar opciones que se desvíen de sus gustos preestablecidos. Sin embargo, al mismo tiempo, esta circunstancia se presenta como una oportunidad única. La ausencia de alternativas en el mercado que combinen de manera efectiva elementos de ejercicio físico con desafíos mentales constituye un nicho inexplorado. Esta singularidad de nuestro proyecto podría captar la atención y el interés de aquellos en busca de nuevas experiencias lúdicas, ofreciendo una propuesta innovadora que se distingue claramente de las opciones tradicionales disponibles. Por tanto, pese a los retos de la diversidad del público objetivo, la naturaleza única de nuestro juego puede generar un impacto significativo en el mercado, atrayendo a aquellos interesados en una experiencia de juego más integral y enriquecedora. 
 
