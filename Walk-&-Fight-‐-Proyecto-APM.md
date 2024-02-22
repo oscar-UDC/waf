@@ -91,19 +91,19 @@ Se mantendrá el nivel de cada jugador, podrá visualizar sus estadísticas e in
 
 ### Funcionalidades
 
-* Minijuegos (AR Core y Unity) 
+* Minijuegos (AR Core y Unity) - Daniel y Ulises
 
-* Representación ruta en mapa 
+* Representación ruta en mapa - Caetán y Jesús 
 
-* Crear una ruta 
+* Crear una ruta - Caetán y Jesús 
 
-* Cancelar ruta 
+* Cancelar ruta - Caetán y Jesús 
 
-* Visualizar estadísticas 
+* Visualizar estadísticas - grupal
 
-* Compartir en redes sociales 
+* Compartir en redes sociales - Ulises
 
-* Registro e inicio de sesión por Google 
+* Registro e inicio de sesión por Google - Daniel
 
 
 ###  Análisis de mercado 
