@@ -128,6 +128,11 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 
 [1] https://www.coruna.gal/descarga/1453722307416/Distribucion-de-la-poblacion-municipal-segun-sexo-y-edad.pdf 
 
+
+## Mockups
+![image](https://github.com/DanielV-source/waf/assets/19588029/e3adcdff-6607-4b65-991d-1764d803ad42)
+
+
  
 
 
