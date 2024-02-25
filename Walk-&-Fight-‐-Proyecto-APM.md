@@ -130,16 +130,17 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 
 
 ## Mockups
+
 ![image](https://github.com/DanielV-source/waf/assets/19588029/e3adcdff-6607-4b65-991d-1764d803ad42)
 
-### Mockups de pantallas de móvil y tablet
+### Versión digital para móviles y tablets
 
 #### Versión claro
 ![APM-Plantilla-clara](https://github.com/DanielV-source/waf/assets/79198704/dc7325e6-8996-4cbf-a604-201d7a96b7e9)
 #### Versión oscuro
 ![APM-Plantilla-oscura](https://github.com/DanielV-source/waf/assets/79198704/ec668326-62e8-4851-8d4e-151659464a15)
 
-### Flujo de pantallas normal
+### Flujo de pantallas
 
 #### Versión claro
 ![APM-Flujo-de-pantallas-claro](https://github.com/DanielV-source/waf/assets/79198704/c3af518b-8796-4f36-a0b1-227beae32bb9)
