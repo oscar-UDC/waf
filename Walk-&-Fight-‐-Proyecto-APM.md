@@ -136,9 +136,9 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 ### Versión digital para móviles y tablets
 
 #### Versión claro
-![APM-Plantilla-clara](https://github.com/DanielV-source/waf/assets/79198704/dc7325e6-8996-4cbf-a604-201d7a96b7e9)
+![APM-Pantallas-claro](https://github.com/DanielV-source/waf/assets/79198704/d87d161b-28b6-46ce-a023-f23803cd7979)
 #### Versión oscuro
-![APM-Plantilla-oscura](https://github.com/DanielV-source/waf/assets/79198704/ec668326-62e8-4851-8d4e-151659464a15)
+![APM-Pantallas-oscuro](https://github.com/DanielV-source/waf/assets/79198704/7f393363-1a28-47c2-a81b-fc34f0684aaf)
 
 ### Flujo de pantallas
 
