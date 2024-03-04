@@ -147,4 +147,8 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 #### Versión oscuro
 ![APM-Flujo-de-pantallas-oscuro](https://github.com/DanielV-source/waf/assets/79198704/0efc6377-0b75-457b-b1bb-b544bd6824ef)
 
+### Diseño de pantallas con editor UIs
+
+![Google_SignIn_Screen](https://github.com/DanielV-source/waf/assets/79198704/b3be1ea0-5648-48a3-8d00-a418c96be176)
+
 
