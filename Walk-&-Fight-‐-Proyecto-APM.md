@@ -149,6 +149,4 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 
 ### Diseño de pantallas con editor UIs
 
-![Google_SignIn_Screen](https://github.com/DanielV-source/waf/assets/79198704/b3be1ea0-5648-48a3-8d00-a418c96be176)
-
 
