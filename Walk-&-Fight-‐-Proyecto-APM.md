@@ -149,4 +149,5 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 
 ### Diseño de pantallas con editor UIs
 
+![Temp](https://github.com/DanielV-source/waf/assets/79198704/b8bdc112-8d56-4780-b177-82feeccf81ae)
 
