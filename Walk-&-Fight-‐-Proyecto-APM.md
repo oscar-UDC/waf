@@ -151,3 +151,56 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 
 ![Temp](https://github.com/DanielV-source/waf/assets/79198704/b8bdc112-8d56-4780-b177-82feeccf81ae)
 
+
+
+### ¿Qué se pretende implementar como una actividad?  
+
+Tan solo habrá actividades para los componentes básicos de la aplicación. Estas actividades harán uso de fragments para la representación completa de la aplicación de una manera óptima. A continuación, se enumeran todas las actividades: 
+
+- MainActivity: En esta actividad se implementa la pantalla de inicio de sesión y es el punto de entrada a la aplicación. En ella se implementa la gestión del inicio de sesión y el cierre de sesión. 
+- InitMenuActivity: Esta actividad implementará el fragment MainFragment, así como la toolbar y fragment lateral ProfileFragment. 
+- FightActivity: Esta actividad gestiona el servicio de Unity, permitiendo la comunicación del motor con la aplicación. 
+
+
+### ¿Qué se va a implementar como un servicio?  
+
+Se implementará el servicio oculto de “escucha” para registrar los logs de Unity y poder comunicar el progreso del reto con los datos del usuario en la aplicación y viceversa. 
+
+
+### ¿Qué se va a implementar con fragments?  
+
+Se implementará la toolbar que se añadirá en las pantallas requeridas, donde se muestre un logo y un menú desplazable lateral. Esta toolbar se situará en la parte superior y dispondrá de un botón de despliegue y ocultación con el nombre de usuario, un botón para volver a la pantalla inicial y un botón para cerrar la sesión. 
+
+- MainFragment: Esta es la pantalla inicial de la aplicación una vez que el usuario ha iniciado la sesión. Desde ella es posible comenzar una nueva aventura, continuar una aventura ya iniciada y visitar las estadísticas. Dependiendo de la opción elegida se reemplazará este fragment por el indicado. 
+- MyStatisticsFragment: En este fragment se implementa la pantalla que recopila las opciones para ver las diferentes estadísticas en vista a una futura extensión de estas. Para esta primera versión esta pantalla solo mostrará la opción de ver las estadísticas globales y la de volver a la pantalla inicial. Las estadísticas globales se representan con un fragment que reemplazará a MyStatisticsFragment. 
+- RankingFragment: En este fragment se implementa la pantalla donde se muestran las estadísticas de todos los jugadores de la aplicación. 
+- OSMFragment: Este fragment representa el mapa. En él se implementa la localización del usuario mediante su GPS y se detecta cuando este esté próximo a un punto concreto donde se encuentra un reto. Cuando esto sucede, se mostrará un botón sobre el mapa para lanzar el reto. Esto reemplazará el fragment por el del reto, llamado FightFragment. 
+- FightFragment: Este fragment gestiona el reto y lanza la actividad FightActivity para gestionar el servicio de Unity. Una vez terminado el reto, se reemplaza por el fragment correspondiente dependiendo del resultado del reto y del tipo de rival. 
+- WinnerFragment: En este fragment se implementa la pantalla que muestra las estadísticas del reto y se permite al usuario compartirlo en redes sociales o volver a la pantalla de inicio. En caso de continuar y siempre y cuando el reto no sea un reto final, este fragment será substituido por OSMFragment. En caso de elegir la opción de retornar al menú principal, se substituirá por el fragment MainFragment. 
+- LoserFragment: En este fragment se implementa la pantalla que muestra las estadísticas del reto y se permite al usuario volver a intentar el reto o volver a la pantalla de inicio. En el primer caso, se reemplazará el fragment por OSMFragment. En caso de elegir la opción de retornar al menú principal, se substituirá por el fragment MainFragment. 
+- ProfileFragment: Se implementa la barra lateral del menú desplegable con la toolbar y tendrá un botón para volver a la pantalla inicial y un botón para cerrar la sesión. 
+ 
+
+### ¿Quién lanza a quién y quién hace uso de los fragments o los servicios? 
+
+Para el servicio, este será lanzado por la el fragment FightFragment. Cuando el usuario se encuentre próximo al punto requerido, aparecerá en la pantalla un botón con el texto Fight. Haciendo tap en el botón, el servicio para que el reto y la aplicación se comuniquen con Unity será lanzado. Este servicio será intrgrado en FightActivity. 
+
+Para los fragments: 
+- MainFragment será cargado por MainActivity 
+- MainFragment será reemplazado por OSMFragment 
+- MainFragment será reemplazado por MyStatisticsFragment 
+- MyStatisticsFragment será reemplazado por MainFragment 
+- MyStatisticsFragment será reemplazado por RankingFragment 
+- OSMFragment será reemplazado por FightFragment 
+- FightFragment será reemplazado por LoserFragment  
+- FightFragment será reemplazado por WinnerFragment 
+- LoserFragment será reemplazado por OSMFragment 
+- LoserFragment será reemplazado por MainFragment 
+- WinnerFragment será reemplazado por MainFragment 
+- WinnerFragment será reemplazado por OSMFragment  
+- ProfileFragment será usado en caso de navegación 
+ 
+
+Debido a la operabilidad y naturaleza de nuestra aplicación, su uso se restringe a dispositivos smartphone, no tablets ni pantallas grandes, por lo que la aplicación tendrá las mismas apariencias y distribución de pantallas a excepción de los retos ya mostrados. 
+
+Esta restricción se debe a que la aplicación necesita conectividad de datos móviles, GPS y ciertos sensores más, algo que solo es posible asegurar en dispositivos móviles smartphones. Además, la usabilidad de una pantalla grande en los desplazamientos y en la manera de completar los retos se antoja poco manejable. 
