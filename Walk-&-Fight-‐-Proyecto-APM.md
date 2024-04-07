@@ -206,7 +206,7 @@ Debido a la operabilidad y naturaleza de nuestra aplicación, su uso se restring
 Esta restricción se debe a que la aplicación necesita conectividad de datos móviles, GPS y ciertos sensores más, algo que solo es posible asegurar en dispositivos móviles smartphones. Además, la usabilidad de una pantalla grande en los desplazamientos y en la manera de completar los retos se antoja poco manejable. 
 
 
-## Definición de las necesidades de tareas en segundo plano. 
+### Definición de las necesidades de tareas en segundo plano. 
 
 A modo de recordatorio, se pasa a definir los términos clave:
 
