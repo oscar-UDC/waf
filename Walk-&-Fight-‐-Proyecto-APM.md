@@ -151,7 +151,7 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 
 ![Temp](https://github.com/DanielV-source/waf/assets/79198704/b8bdc112-8d56-4780-b177-82feeccf81ae)
 
-
+## Arquitectura
 
 ### ¿Qué se pretende implementar como una actividad?  
 
