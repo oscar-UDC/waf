@@ -204,3 +204,24 @@ Para los fragments:
 Debido a la operabilidad y naturaleza de nuestra aplicación, su uso se restringe a dispositivos smartphone, no tablets ni pantallas grandes, por lo que la aplicación tendrá las mismas apariencias y distribución de pantallas a excepción de los retos ya mostrados. 
 
 Esta restricción se debe a que la aplicación necesita conectividad de datos móviles, GPS y ciertos sensores más, algo que solo es posible asegurar en dispositivos móviles smartphones. Además, la usabilidad de una pantalla grande en los desplazamientos y en la manera de completar los retos se antoja poco manejable. 
+
+
+## Definición de las necesidades de tareas en segundo plano. 
+
+A modo de recordatorio, se pasa a definir los términos clave:
+
+- _Activities_: Representan una única pantalla con una interfaz de usuario, cada actividad es independiente y se puede iniciar otras actividades. Las aplicaciones suelen tener varias actividades que interactúan entre sí. 
+
+- _Services_: Se puede realizar operaciones de larga duración sin proporcional una interfaz de usuario. 
+
+- Corrutinas: Se utilizan para ejecutar tareas asíncronas en _threads_ ligeros
+
+A continuación, se enumeran las diferentes actividades en segundo plano que tendrá la aplicación:
+- Geolocalización / Open Street Maps: Es necesario seguir la posición del usuario en todo momento para que cuando su ubicación se encuentre dentro del rango de un punto se lanza la actividad del reto.  La geolocalización será de tipo _geofencing_ ya que necesitamos lanzar un evento basado en la ubicación de un usuario, es decir, cuando su ubicación se encuentre dentro del rango de distancia definido al punto del reto. 
+
+- Unity: Este servicio es necesario para obtener y controlar el estado del juego en todo momento, así como saber si el usuario ha superado la prueba o no (con su consecuente pantalla de victoria o derrota. 
+
+
+Además, como corrutina se implementa también la llamada a la API de openrouteservice (https://api.openrouteservice.org/v2) para la obtención de los puntos intermedios de la ruta, es decir, los puntos donde se encuentran los retos. 
+
+
