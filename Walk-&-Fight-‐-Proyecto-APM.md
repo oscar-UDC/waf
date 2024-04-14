@@ -214,7 +214,7 @@ A modo de recordatorio, se pasa a definir los términos clave:
 
 - _Services_: Se puede realizar operaciones de larga duración sin proporcional una interfaz de usuario. 
 
-- Corrutinas: Se utilizan para ejecutar tareas asíncronas en _threads_ ligeros
+- Corrutinas_: Se utilizan para ejecutar tareas asíncronas en _threads_ ligeros
 
 A continuación, se enumeran las diferentes actividades en segundo plano que tendrá la aplicación:
 - Geolocalización / Open Street Maps: Es necesario seguir la posición del usuario en todo momento para que cuando su ubicación se encuentre dentro del rango de un punto se lanza la actividad del reto.  La geolocalización será de tipo _geofencing_ ya que necesitamos lanzar un evento basado en la ubicación de un usuario, es decir, cuando su ubicación se encuentre dentro del rango de distancia definido al punto del reto. 
@@ -226,9 +226,9 @@ Además, como corrutina se implementa también la llamada a la API de openroutes
 
 ### En este caso se implementan 2 servicios de Google/Android. 
 
-- Autenticación: Se hace uso del paquete signin de Google. Esta autenticación se hace con la integración de Firebase, siendo este el que almacena los tokens de acceso y admite o deniega el acceso de los usuarios. 
+- Autenticación_: Se hace uso del paquete signin de Google. Esta autenticación se hace con la integración de Firebase, siendo este el que almacena los tokens de acceso y admite o deniega el acceso de los usuarios. 
 
-- Geolocalización: Se hace uso del paquete location de Android para acceder al GPS y obtener así la ubicación del usuario. La ubicación de la que se hace uso es la ubicación más precisa (ACCESS_FINE_LOCATION) y también se solicita siempre la ubicación actual, no la última ubicación conocida. En este caso se está haciendo uso de Open Street Maps en lugar de Google Maps para representar la ubicación del usuario en un mapa. Cabe recordar que se hará uso de una estrategia de geofencing. Además, para lanzar el evento del reto, el usuario puede estar en un radio de 20 metros alrededor del punto en el que se ubica el reto.  
+- Geolocalización_: Se hace uso del paquete location de Android para acceder al GPS y obtener así la ubicación del usuario. La ubicación de la que se hace uso es la ubicación más precisa (ACCESS_FINE_LOCATION) y también se solicita siempre la ubicación actual, no la última ubicación conocida. En este caso se está haciendo uso de Open Street Maps en lugar de Google Maps para representar la ubicación del usuario en un mapa. Cabe recordar que se hará uso de una estrategia de geofencing. Además, para lanzar el evento del reto, el usuario puede estar en un radio de 20 metros alrededor del punto en el que se ubica el reto.  
 
 En este caso, además de obtener la ubicación del usuario mediante el GPS del dispositivo, también se puede obtener de la red que use para aquellos dispositivos independientemente de GPS, así que permitimos la usabilidad de la aplicación en diferentes dispositivos con o no sensor GPS. 
 
