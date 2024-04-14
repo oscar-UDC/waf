@@ -224,12 +224,14 @@ A continuación, se enumeran las diferentes actividades en segundo plano que ten
 
 Además, como corrutina se implementa también la llamada a la API de openrouteservice (https://api.openrouteservice.org/v2) para la obtención de los puntos intermedios de la ruta, es decir, los puntos donde se encuentran los retos. 
 
-### En este caso se implementan 2 servicios de Google/Android. 
+### Servicios de Google
 
-- _Autenticación_: Se hace uso del paquete signin de Google. Esta autenticación se hace con la integración de Firebase, siendo este el que almacena los tokens de acceso y admite o deniega el acceso de los usuarios. 
+En este caso se implementan 2 servicios de Google/Android. 
 
-- _Geolocalización_: Se hace uso del paquete location de Android para acceder al GPS y obtener así la ubicación del usuario. La ubicación de la que se hace uso es la ubicación más precisa (ACCESS_FINE_LOCATION) y también se solicita siempre la ubicación actual, no la última ubicación conocida. En este caso se está haciendo uso de Open Street Maps en lugar de Google Maps para representar la ubicación del usuario en un mapa. Cabe recordar que se hará uso de una estrategia de geofencing. Además, para lanzar el evento del reto, el usuario puede estar en un radio de 20 metros alrededor del punto en el que se ubica el reto.  
+- *Autenticación*: Se hace uso del paquete _signin_ de Google. Esta autenticación se hace con la integración de Firebase, siendo este el que almacena los tokens de acceso y admite o deniega el acceso de los usuarios. 
 
-En este caso, además de obtener la ubicación del usuario mediante el GPS del dispositivo, también se puede obtener de la red que use para aquellos dispositivos independientemente de GPS, así que permitimos la usabilidad de la aplicación en diferentes dispositivos con o no sensor GPS. 
+- *Geolocalización*: Se hace uso del paquete _location_ de Android para acceder al GPS y obtener así la ubicación del usuario. La ubicación de la que se hace uso es la ubicación más precisa (_ACCESS_FINE_LOCATION_) y también se solicita siempre la ubicación actual, no la última ubicación conocida. En este caso se está haciendo uso de Open Street Maps en lugar de Google Maps para representar la ubicación del usuario en un mapa. Cabe recordar que se hará uso de una estrategia de _geofencing_. Además, para lanzar el evento del reto, el usuario puede estar en un radio de 20 metros alrededor del punto en el que se ubica el reto.  
+
+  En este caso, además de obtener la ubicación del usuario mediante el GPS del dispositivo, también se puede obtener de la red que use para aquellos dispositivos independientemente de GPS, así que permitimos la usabilidad de la aplicación en diferentes dispositivos con o no sensor GPS. 
 
 
