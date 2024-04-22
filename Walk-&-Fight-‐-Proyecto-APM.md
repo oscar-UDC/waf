@@ -232,6 +232,18 @@ En este caso se implementan 2 servicios de Google/Android.
 
 - *Geolocalización*: Se hace uso del paquete _location_ de Android para acceder al GPS y obtener así la ubicación del usuario. La ubicación de la que se hace uso es la ubicación más precisa (_ACCESS_FINE_LOCATION_) y también se solicita siempre la ubicación actual, no la última ubicación conocida. En este caso se está haciendo uso de Open Street Maps en lugar de Google Maps para representar la ubicación del usuario en un mapa. Cabe recordar que se hará uso de una estrategia de _geofencing_. Además, para lanzar el evento del reto, el usuario puede estar en un radio de 20 metros alrededor del punto en el que se ubica el reto.  
 
-  En este caso, además de obtener la ubicación del usuario mediante el GPS del dispositivo, también se puede obtener de la red que use para aquellos dispositivos independientemente de GPS, así que permitimos la usabilidad de la aplicación en diferentes dispositivos con o no sensor GPS. 
+En este caso, además de obtener la ubicación del usuario mediante el GPS del dispositivo, también se puede obtener de la red que use para aquellos dispositivos independientemente de GPS, así que permitimos la usabilidad de la aplicación en diferentes dispositivos con o no sensor GPS.
+
+### Almacenamiento 
+
+Para este proyecto, el almacenamiento necesario es básico. Por una parte, se necesita hacer uso del almacenamiento interno para poder comunicar ciertos datos entre los diferentes componentes. En este caso, y como los datos no son críticos ni confidenciales, se hace uso de _SharedPreferences_ para poder tener acceso a las coordenadas en el mapa. Estas coordenadas serán guardadas en _SharedPreferences_ al inicializar el mapa y podrán ser usadas en cualquier lugar de la aplicación. En este caso, en los diferentes _handlers_ que gestionan las ubicaciones del mapa. La puntuación actual de la partida también será guardada en el _SharedPreferences_, así como la dificultad y el punto actuales en el que tiene que luchar, para poder recuperar la partida mientras la aplicación no se cierre. 
+
+El resto de información sobre el usuario, como el nombre, el correo, etc. se obtendrá directamente de _Firebase_. 
+
+Trabajo futuro: 
+
+- Implementación de un almacenamiento externo para los rankings globales y personales del usuario, así como el punto de la partida en el que el usuario está de forma no volátil, para permitir al usuario recuperar la partida en cualquier momento. 
+
+- Implementación de dificultad dinámica según los resultados que vaya teniendo el usuario durante la partida. 
 
 
