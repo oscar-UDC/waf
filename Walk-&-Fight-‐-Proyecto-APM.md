@@ -245,5 +245,3 @@ Trabajo futuro:
 - Implementación de un almacenamiento externo para los rankings globales y personales del usuario, así como el punto de la partida en el que el usuario está de forma no volátil, para permitir al usuario recuperar la partida en cualquier momento. 
 
 - Implementación de dificultad dinámica según los resultados que vaya teniendo el usuario durante la partida. 
-
-
