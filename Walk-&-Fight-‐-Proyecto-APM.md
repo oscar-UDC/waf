@@ -256,11 +256,11 @@ Se identificarán los botones primarios con el color primario de referencia (có
 
 1. Contactamos con Alejandro Rodríguez de la aplicación "SwimChrono". 
 
-* Aumentar el tamaño del título inicial de la aplicación "Walk and Fight" 
+  - Aumentar el tamaño del título inicial de la aplicación "Walk and Fight" 
 
-* Aumentar el tamaño de los botones y las letras del menú. 
+  - Aumentar el tamaño de los botones y las letras del menú. 
 
-- Ajustar el fragment,  reducir el tamaño y cambiar el color.  
+  - Ajustar el fragment,  reducir el tamaño y cambiar el color.  
 
   - Los botones del menú están bien colocados. 
 
