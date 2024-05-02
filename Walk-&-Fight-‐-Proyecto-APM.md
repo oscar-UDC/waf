@@ -241,13 +241,13 @@ Trabajo futuro:
 - Implementación de un almacenamiento externo para los rankings globales y personales del usuario, así como el punto de la partida en el que el usuario está de forma no volátil, para permitir al usuario recuperar la partida en cualquier momento. 
 - Implementación de dificultad dinámica según los resultados que vaya teniendo el usuario durante la partida. 
 
-### Especificaciones de las necesidades detectadas a nivel de usabilidad y UX. 
+### Usabilidad y UX. 
 
 Aplicando la guía de referencia de _Material Design_ (https://m2.material.io/design/material-theming/overview.html#material-theming) aplicaremos un cambio en el color de fondo de los botones del menú principal. 
 
 * Se identificarán los botones primarios con el color primario de referencia (código hexadecimal #6200EE) 
 
-### Contactar con responsables de UX de otros grupos para probar y dar _feedback_ de las _apps_. 
+#### Contactar con responsables de UX de otros grupos para probar y dar _feedback_ de las _apps_. 
 
 1. Contactamos con Alejandro Rodríguez de la aplicación "SwimChrono". 
 
