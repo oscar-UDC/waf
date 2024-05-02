@@ -250,7 +250,7 @@ Trabajo futuro:
 
 Aplicando la guía de referencia de _Material Design_ (https://m2.material.io/design/material-theming/overview.html#material-theming) aplicaremos un cambio en el color de fondo de los botones del menú principal. 
 
-> Se identificarán los botones primarios con el color primario de referencia (código hexadecimal #6200EE) 
+* Se identificarán los botones primarios con el color primario de referencia (código hexadecimal #6200EE) 
 
 ### Contactar con responsables de UX de otros grupos para probar y dar feedback de las apps. 
 
