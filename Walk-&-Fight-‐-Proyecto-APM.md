@@ -254,34 +254,34 @@ Se identificarán los botones primarios con el color primario de referencia (có
 
 ### Contactar con responsables de UX de otros grupos para probar y dar feedback de las apps. 
 
-1. Contactamos con Alejandro Rodriguez de la aplicación "SwimChrono". 
+1. Contactamos con Alejandro Rodríguez de la aplicación "SwimChrono". 
 
-- Aumentar el tamaño del título inicial de la aplicación "Walk and Fight" 
+  - Aumentar el tamaño del título inicial de la aplicación "Walk and Fight" 
 
-- Aumentar el tamaño de los botones y las letras del menú. 
+  - Aumentar el tamaño de los botones y las letras del menú. 
 
-- Ajustar el fragment,  reducir el tamaño y cambiar el color.  
+  - Ajustar el fragment,  reducir el tamaño y cambiar el color.  
 
-- Los botones del menú están bien colocados. 
+  - Los botones del menú están bien colocados. 
 
-- Antes de que se inicie el juego, poner la descripción de la actividad en el cuadro que arroja la flecha azul. 
+  - Antes de que se inicie el juego, poner la descripción de la actividad en el cuadro que arroja la flecha azul. 
 
-- El Sign in con Google, se ve bien al inicio. 
+  - El Sign in con Google, se ve bien al inicio. 
 
  
 2. Contactamos con Diego López de la aplicación "ScapeTheAds". 
 
-- Modificar el color de rojo a rojo más oscuro. 
+  - Modificar el color de rojo a rojo más oscuro. 
 
-- Modificar el botón de "Fight" en el mapa, ubicándolo más abajo. 
+  - Modificar el botón de "Fight" en el mapa, ubicándolo más abajo. 
 
-- Cambiar el color de los botones del menú principal. 
+  - Cambiar el color de los botones del menú principal. 
 
-- Colocar información en Profile. 
+  - Colocar información en Profile. 
 
-- Ajustar el fragment,  reducir el tamaño y cambiar el color. 
+  - Ajustar el fragment,  reducir el tamaño y cambiar el color. 
 
-- El Sign in con Google, se ve bien al inicio. 
+  - El Sign in con Google, se ve bien al inicio. 
 
 
 De estos feedback, el equipo ha acordado e implementado las siguientes recomendaciones: 
