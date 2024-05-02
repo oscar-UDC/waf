@@ -245,3 +245,51 @@ Trabajo futuro:
 - Implementación de un almacenamiento externo para los rankings globales y personales del usuario, así como el punto de la partida en el que el usuario está de forma no volátil, para permitir al usuario recuperar la partida en cualquier momento. 
 
 - Implementación de dificultad dinámica según los resultados que vaya teniendo el usuario durante la partida. 
+
+### Especificaciones de las necesidades detectadas a nivel de usabilidad y UX. 
+
+Aplicando la guía de referencia de Material Design (https://m2.material.io/design/material-theming/overview.html#material-theming) aplicaremos un cambio en el color de fondo de los botones del menú principal. 
+
+Se identificarán los botones primarios con el color primario de referencia (código hexadecimal #6200EE) 
+
+### Contactar con responsables de UX de otros grupos para probar y dar feedback de las apps. 
+
+1. Contactamos con Alejandro Rodriguez de la aplicación "SwimChrono". 
+
+- Aumentar el tamaño del título inicial de la aplicación "Walk and Fight" 
+
+- Aumentar el tamaño de los botones y las letras del menú. 
+
+- Ajustar el fragment,  reducir el tamaño y cambiar el color.  
+
+- Los botones del menú están bien colocados. 
+
+- Antes de que se inicie el juego, poner la descripción de la actividad en el cuadro que arroja la flecha azul. 
+
+- El Sign in con Google, se ve bien al inicio. 
+
+ 
+2. Contactamos con Diego López de la aplicación "ScapeTheAds". 
+
+- Modificar el color de rojo a rojo más oscuro. 
+
+- Modificar el botón de "Fight" en el mapa, ubicándolo más abajo. 
+
+- Cambiar el color de los botones del menú principal. 
+
+- Colocar información en Profile. 
+
+- Ajustar el fragment,  reducir el tamaño y cambiar el color. 
+
+- El Sign in con Google, se ve bien al inicio. 
+
+
+De estos feedback, el equipo ha acordado e implementado las siguientes recomendaciones: 
+
+- Aumentar el tamaño de los botones y las letras del menú. 
+
+- Modificar el botón de "Fight" en el mapa, ubicarlo más abajo. 
+
+- Cambiar el color de los botones del menú principal. 
+
+- Colocar información en Profile. 
