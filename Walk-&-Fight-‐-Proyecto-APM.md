@@ -218,8 +218,8 @@ A continuación, se enumeran las diferentes actividades en segundo plano que ten
 - Geolocalización / Open Street Maps: Es necesario seguir la posición del usuario en todo momento para que cuando su ubicación se encuentre dentro del rango de un punto se lanza la actividad del reto.  La geolocalización será de tipo _geofencing_ ya que necesitamos lanzar un evento basado en la ubicación de un usuario, es decir, cuando su ubicación se encuentre dentro del rango de distancia definido al punto del reto. 
 - Unity: Este servicio es necesario para obtener y controlar el estado del juego en todo momento, así como saber si el usuario ha superado la prueba o no (con su consecuente pantalla de victoria o derrota. 
 
-
 Además, como corrutina se implementa también la llamada a la API de openrouteservice (https://api.openrouteservice.org/v2) para la obtención de los puntos intermedios de la ruta, es decir, los puntos donde se encuentran los retos. 
+
 
 ### Servicios de Google
 
@@ -256,8 +256,7 @@ Aplicando la guía de referencia de _Material Design_ (https://m2.material.io/de
     * Ajustar el _fragment_,  reducir el tamaño y cambiar el color.  
     * Los botones del menú están bien colocados. 
     * Antes de que se inicie el juego, poner la descripción de la actividad en el cuadro que arroja la flecha azul. 
-    * El _Sign_ in con Google, se ve bien al inicio. 
-
+    * El _Sign in_ con Google, se ve bien al inicio. 
 
 2. Contactamos con Diego López de la aplicación "ScapeTheAds". 
 
@@ -266,8 +265,7 @@ Aplicando la guía de referencia de _Material Design_ (https://m2.material.io/de
     * Cambiar el color de los botones del menú principal. 
     * Colocar información en _Profile_. 
     * Ajustar el _fragment_,  reducir el tamaño y cambiar el color. 
-    * El _Sign_ in con Google, se ve bien al inicio. 
-
+    * El _Sign in_ con Google, se ve bien al inicio. 
 
 De estos feedback, el equipo ha acordado e implementado las siguientes recomendaciones: 
 
