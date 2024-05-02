@@ -252,7 +252,7 @@ Aplicando la guía de referencia de _Material Design_ (https://m2.material.io/de
 
 * Se identificarán los botones primarios con el color primario de referencia (código hexadecimal #6200EE) 
 
-### Contactar con responsables de UX de otros grupos para probar y dar feedback de las apps. 
+### Contactar con responsables de UX de otros grupos para probar y dar _feedback_ de las _apps_. 
 
 1. Contactamos con Alejandro Rodríguez de la aplicación "SwimChrono". 
 
