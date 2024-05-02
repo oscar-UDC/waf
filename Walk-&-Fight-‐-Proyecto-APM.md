@@ -241,7 +241,7 @@ Trabajo futuro:
 - Implementación de un almacenamiento externo para los rankings globales y personales del usuario, así como el punto de la partida en el que el usuario está de forma no volátil, para permitir al usuario recuperar la partida en cualquier momento. 
 - Implementación de dificultad dinámica según los resultados que vaya teniendo el usuario durante la partida. 
 
-### Usabilidad y UX. 
+### Usabilidad y UX
 
 Aplicando la guía de referencia de _Material Design_ (https://m2.material.io/design/material-theming/overview.html#material-theming) aplicaremos un cambio en el color de fondo de los botones del menú principal. 
 
