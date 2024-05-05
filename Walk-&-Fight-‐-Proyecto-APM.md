@@ -273,3 +273,9 @@ De estos feedback, el equipo ha acordado e implementado las siguientes recomenda
 * Modificar el botón de "Fight" en el mapa, ubicarlo más abajo. 
 * Cambiar el color de los botones del menú principal. 
 * Colocar información en _Profile_. 
+
+## Modelo de negocio
+
+### Lean canvas
+
+![image](https://github.com/DanielV-source/waf/assets/56442137/167f6c86-3cc6-4ced-972f-02d5a751458a)
