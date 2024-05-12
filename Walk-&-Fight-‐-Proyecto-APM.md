@@ -6,6 +6,11 @@ Nombre del grupo: **JUDC**
 
 Este proyecto está centrado principalmente en hacer que el usuario mejore sus habilidades cognitivas y motrices. Al iniciar la aplicación se mostrará en un mapa diferentes puntos que el usuario tendrá que ir alcanzando, esto se comprobará mediante la geolocalización del teléfono. Una vez llegado al lugar indicado, se mostrará un minijuego donde se pondrá a prueba la capacidad de memorizar del usuario enfrentándose a un enemigo. En los diferentes minijuegos se utilizará tanto la pantalla táctil del dispositivo, como el uso del micrófono y el acelerómetro. Según se vayan alcanzando los diferentes puntos, el usuario recibirá algún tipo de mejora o pista para encontrar el siguiente punto y en cada punto, la dificultad irá incrementando progresivamente. Finalmente, se podrá compartir la puntuación alcanzada en redes sociales para intentar llegar a más público.
 
+#### Anotaciones
+
+- Al final decidimos utilizar un minijuego único que agrupe todos los sensores que íbamos a utilizar. 
+- No se ha implementado la funcionalidad de compartir en RRSS. 
+- No se han implementado las pistas y ayudas a los usuarios.
 
 ## Miembros, roles y funcionalidades asignadas
 
@@ -21,6 +26,17 @@ Hemos decidido dividirnos en dos grupos para las dos principales funcionalidades
 Todos los miembros son además responsables de la documentación de su área.
 
 ---
+
+
+#### Anotaciones
+- Daniel: El testing se hizo de forma manual, abriendo la aplicación y probando las funcionalidades. Desarrolló el minijuego completo en Unity y su comunicación con la aplicación. 
+
+- Jesús: Centrado más en la integración del sensor de localización. 
+
+- Caetán: La integración y comprobación de sensores (cámara, acelerómetro, micrófono) fue realizada por Daniel en Unity. 
+
+- Ulises: Se centró en la UI/UX y la validación de diferentes dispositivos. 
+
 ---
 
 ## Target 
@@ -49,7 +65,8 @@ Nos dirigimos a un mercado de masas puesto que pretendemos llegar a grupos de po
 
 Una persona joven o de edad avanzada con tiempo libre que quiera reducir el sedentarismo de una forma divertida y retadora intelectualmente. 
 
- 
+#### Anotaciones
+Nos centramos más en el público joven en las primeras fases de desarrollo y buscaríamos captar la atención de la gente mayor en futuras versiones con diferentes retos.
 
 ## Estudio de mercado 
 
@@ -87,9 +104,18 @@ Se mantendrá el nivel de cada jugador, podrá visualizar sus estadísticas e in
 
  Figura 2: Pokémon GO                          
 
- 
+###  Análisis de mercado 
 
-### Funcionalidades
+No hay ninguna aplicación similar en el mercado y esto puede ser una oportunidad para hacerse un hueco en el mismo. Si analizamos las aplicaciones que se basan en el ejercicio físico (NEXT TRACK, ORUXMAPS GP), parten de 100.000 descargas y son aptas para todos los públicos. En cuanto a retos mentales, existen aplicaciones de puzles, como la saga PROFESOR LAYTON, que ronda las 100.000 descargas con una puntuación excelente y cuenta con PEGI 3. Finalmente, si vemos aquellas que relacionan el ejercicio físico junto con juegos (ZOMBIES RUN, POKÉMON GO) rondarían entre 1 millón de descargas y están dirigidos a un público mayor de 13 años.  
+
+Dentro del análisis exhaustivo de las principales debilidades y fortalezas en el desarrollo de nuestro juego, hemos identificado que uno de los desafíos más significativos radica en la diversidad y la particular rigidez de nuestro público objetivo. Este grupo se muestra dividido en sus intereses y preferencias, lo que representa un obstáculo considerable, ya que pueden mostrar resistencia a la hora de explorar opciones que se desvíen de sus gustos preestablecidos. Sin embargo, al mismo tiempo, esta circunstancia se presenta como una oportunidad única. La ausencia de alternativas en el mercado que combinen de manera efectiva elementos de ejercicio físico con desafíos mentales constituye un nicho inexplorado. Esta singularidad de nuestro proyecto podría captar la atención y el interés de aquellos en busca de nuevas experiencias lúdicas, ofreciendo una propuesta innovadora que se distingue claramente de las opciones tradicionales disponibles. Por tanto, pese a los retos de la diversidad del público objetivo, la naturaleza única de nuestro juego puede generar un impacto significativo en el mercado, atrayendo a aquellos interesados en una experiencia de juego más integral y enriquecedora. 
+
+En 2022, según el Concello de A Coruña [1], en la ciudad había 180.000 personas de entre 15 y 79 años, nuestro mercado de potenciales usuarios, personas que por las características técnicas y de la aplicación podrían descargarla y utilizarla. Según lo visto en clase, a fecha de enero de 2024 en torno a un 75% de usuarios móviles en España usan Android, por lo que, extrapolando estos datos a la ciudad de A Coruña, y que un 80% de la población tiene un smartphone tenemos en torno a un total de en torno 108.000 de usuarios Android. Con la información recogida, podemos observar que la aplicación puede recibirse bien en este mercado, esperando mínimo unas 10.000 descargas en cuanto se establezca este nuevo referente. 
+
+#### Anotaciones
+- Las estadísticas globales y personales se implementarían en futuras versiones.
+
+## Funcionalidades
 
 * Minijuegos (AR Core y Unity) - Daniel y Ulises
 
@@ -105,16 +131,16 @@ Se mantendrá el nivel de cada jugador, podrá visualizar sus estadísticas e in
 
 * Registro e inicio de sesión por Google - Daniel
 
+#### Anotaciones
+- Minijuego (Unity) - Daniel.
 
-###  Análisis de mercado 
+- No hay un botón específico para cancelar ruta, pero si es posible iniciar una nueva desde el botón “Empezar aventura”. 
 
-No hay ninguna aplicación similar en el mercado y esto puede ser una oportunidad para hacerse un hueco en el mismo. Si analizamos las aplicaciones que se basan en el ejercicio físico (NEXT TRACK, ORUXMAPS GP), parten de 100.000 descargas y son aptas para todos los públicos. En cuanto a retos mentales, existen aplicaciones de puzles, como la saga PROFESOR LAYTON, que ronda las 100.000 descargas con una puntuación excelente y cuenta con PEGI 3. Finalmente, si vemos aquellas que relacionan el ejercicio físico junto con juegos (ZOMBIES RUN, POKÉMON GO) rondarían entre 1 millón de descargas y están dirigidos a un público mayor de 13 años.  
+- La visualización de estadísticas se implementaría en futuras versiones.
 
-Dentro del análisis exhaustivo de las principales debilidades y fortalezas en el desarrollo de nuestro juego, hemos identificado que uno de los desafíos más significativos radica en la diversidad y la particular rigidez de nuestro público objetivo. Este grupo se muestra dividido en sus intereses y preferencias, lo que representa un obstáculo considerable, ya que pueden mostrar resistencia a la hora de explorar opciones que se desvíen de sus gustos preestablecidos. Sin embargo, al mismo tiempo, esta circunstancia se presenta como una oportunidad única. La ausencia de alternativas en el mercado que combinen de manera efectiva elementos de ejercicio físico con desafíos mentales constituye un nicho inexplorado. Esta singularidad de nuestro proyecto podría captar la atención y el interés de aquellos en busca de nuevas experiencias lúdicas, ofreciendo una propuesta innovadora que se distingue claramente de las opciones tradicionales disponibles. Por tanto, pese a los retos de la diversidad del público objetivo, la naturaleza única de nuestro juego puede generar un impacto significativo en el mercado, atrayendo a aquellos interesados en una experiencia de juego más integral y enriquecedora. 
+- La integración con RRSS se implementaría en futuras versiones. 
 
-En 2022, según el Concello de A Coruña [1], en la ciudad había 180.000 personas de entre 15 y 79 años, nuestro mercado de potenciales usuarios, personas que por las características técnicas y de la aplicación podrían descargarla y utilizarla. Según lo visto en clase, a fecha de enero de 2024 en torno a un 75% de usuarios móviles en España usan Android, por lo que, extrapolando estos datos a la ciudad de A Coruña, y que un 80% de la población tiene un smartphone tenemos en torno a un total de en torno 108.000 de usuarios Android. Con la información recogida, podemos observar que la aplicación puede recibirse bien en este mercado, esperando mínimo unas 10.000 descargas en cuanto se establezca este nuevo referente. 
-
- 
+- Además, la gestión del perfil fue implementada por Ulises.
 
 ## Diseño de la arquitectura de comunicaciones
 
@@ -128,6 +154,12 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 
 [1] https://www.coruna.gal/descarga/1453722307416/Distribucion-de-la-poblacion-municipal-segun-sexo-y-edad.pdf 
 
+#### Anotaciones
+- No se utilizó AR Core, debido a su complejidad y falta de tiempo. En cambio, se optó por una aproximación 2D más interactiva.
+
+- No se ha implementado un backend para la aplicación.
+
+- No se ha implementado todavía la integración con RRSS.
 
 ## Mockups
 
@@ -150,6 +182,11 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 ### Diseño de pantallas con editor UIs
 
 ![Temp](https://github.com/DanielV-source/waf/assets/79198704/b8bdc112-8d56-4780-b177-82feeccf81ae)
+
+#### Anotaciones
+- El minijuego se ha implementado con otra lógica, pero manteniendo la idea original. 
+
+- La alerta por llegada a un punto de batalla no será tan prominente y consistirá en la aparición de un simple botón con el texto "Fight!".
 
 ## Arquitectura
 
