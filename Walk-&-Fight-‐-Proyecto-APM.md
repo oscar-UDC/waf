@@ -311,6 +311,16 @@ De estos feedback, el equipo ha acordado e implementado las siguientes recomenda
 * Cambiar el color de los botones del menú principal. 
 * Colocar información en _Profile_. 
 
+### Sensórica
+Al iniciar la aplicación se hace una comprobación de los sensores que se necesitan y en caso de no detectar alguno de ellos, se muestra un mensaje de advertencia conforme eso puede afectar a la jugabilidad. En Unity, también se realizan comprobaciones de los sensores necesarios, siendo la cámara opcional. 
+
+Sensores implementados: 
+- **Giroscopio**: Movimiento del jugador (desplazamiento lateral) en el minijuego. 
+- **Acelerómetro**: Ataque del jugador en el minijuego. 
+- **Cámara**: Fondo del minijuego. 
+- **Micrófono**: Ralentizar ataques del enemigo en el minijuego. 
+- **Geolocalización**: Localización en mapa y punto de inicio del minijuego. 
+
 ## Modelo de negocio
 
 ### Lean canvas
