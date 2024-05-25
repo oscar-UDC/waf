@@ -8,9 +8,13 @@ Este proyecto está centrado principalmente en hacer que el usuario mejore sus h
 
 #### Anotaciones
 
+- El usuario tiene disponible la opción de iniciar sesión con Google o probar el juego.
 - Al final decidimos utilizar un minijuego único que agrupe todos los sensores que íbamos a utilizar. 
-- No se ha implementado la funcionalidad de compartir en RRSS. 
-- No se han implementado las pistas y ayudas a los usuarios.
+- El minijuego pone a prueba la capacidad cognitiva y coordinación motora del usuario.
+- Se añadieron sensores como la cámara del usuario y el giroscopio.
+- Cuando se alcancen los diferentes puntos, el usuario podrá ver sus estadísticas y su puntuación.
+- El usuario podrá ver el ranking global donde se mostrará el top 10 de usuarios con más puntuación.
+- La dificultad no cambia hasta el último punto.
 
 ## Miembros, roles y funcionalidades asignadas
 
@@ -29,13 +33,13 @@ Todos los miembros son además responsables de la documentación de su área.
 
 
 #### Anotaciones
-- Daniel: El testing se hizo de forma manual, abriendo la aplicación y probando las funcionalidades. Desarrolló el minijuego completo en Unity y su comunicación con la aplicación. 
+- Daniel: El testing se hizo de forma manual, abriendo la aplicación y probando las funcionalidades. Desarrolló el minijuego completo en Unity y su comunicación con la aplicación, el enlace con Firestore obteniendo y guardando los datos de usuarios y el registro con Google.
 
 - Jesús: Centrado más en la integración del sensor de localización. 
 
-- Caetán: La integración y comprobación de sensores (cámara, acelerómetro, micrófono) fue realizada por Daniel en Unity. 
+- Caetán: La integración y comprobación de sensores (cámara, giroscopio, acelerómetro, micrófono) fue realizada por Daniel en Unity. 
 
-- Ulises: Se centró en la UI/UX y la validación de diferentes dispositivos. 
+- Ulises: Se centró en la UI/UX, la validación de diferentes dispositivos, el montaje del vídeo y edición.
 
 ---
 
@@ -112,9 +116,6 @@ Dentro del análisis exhaustivo de las principales debilidades y fortalezas en e
 
 En 2022, según el Concello de A Coruña [1], en la ciudad había 180.000 personas de entre 15 y 79 años, nuestro mercado de potenciales usuarios, personas que por las características técnicas y de la aplicación podrían descargarla y utilizarla. Según lo visto en clase, a fecha de enero de 2024 en torno a un 75% de usuarios móviles en España usan Android, por lo que, extrapolando estos datos a la ciudad de A Coruña, y que un 80% de la población tiene un smartphone tenemos en torno a un total de en torno 108.000 de usuarios Android. Con la información recogida, podemos observar que la aplicación puede recibirse bien en este mercado, esperando mínimo unas 10.000 descargas en cuanto se establezca este nuevo referente. 
 
-#### Anotaciones
-- Las estadísticas globales y personales se implementarían en futuras versiones.
-
 ## Funcionalidades
 
 * Minijuegos (AR Core y Unity) - Daniel y Ulises
@@ -134,11 +135,9 @@ En 2022, según el Concello de A Coruña [1], en la ciudad había 180.000 person
 #### Anotaciones
 - Minijuego (Unity) - Daniel.
 
+- Implementación de Firestore - Daniel
+
 - No hay un botón específico para cancelar ruta, pero si es posible iniciar una nueva desde el botón “Empezar aventura”. 
-
-- La visualización de estadísticas se implementaría en futuras versiones.
-
-- La integración con RRSS se implementaría en futuras versiones. 
 
 - Además, la gestión del perfil fue implementada por Ulises.
 
@@ -158,8 +157,6 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 - No se utilizó AR Core, debido a su complejidad y falta de tiempo. En cambio, se optó por una aproximación 2D más interactiva.
 
 - No se ha implementado un backend para la aplicación.
-
-- No se ha implementado todavía la integración con RRSS.
 
 ## Mockups
 
@@ -278,6 +275,10 @@ Trabajo futuro:
 - Implementación de un almacenamiento externo para los rankings globales y personales del usuario, así como el punto de la partida en el que el usuario está de forma no volátil, para permitir al usuario recuperar la partida en cualquier momento. 
 - Implementación de dificultad dinámica según los resultados que vaya teniendo el usuario durante la partida. 
 
+#### Anotaciones:
+- La implementación del almacenamiento esta realizada, por lo que sí se puede consultar el ranking global y las estadísticas personales.
+- La dificultad se ha implementado manteniendo la misma hasta el último punto, en donde aumentaría, el enemigo haría más daño y el jugador menos.
+
 ### Usabilidad y UX
 
 Aplicando la guía de referencia de _Material Design_ (https://m2.material.io/design/material-theming/overview.html#material-theming) aplicaremos un cambio en el color de fondo de los botones del menú principal. 
@@ -327,7 +328,9 @@ Sensores implementados:
 
 ![image](https://github.com/DanielV-source/waf/assets/56442137/167f6c86-3cc6-4ced-972f-02d5a751458a)
 
-## Imágenes Unity
+## Unity
+
+Este es un sencillo juego de memorización y agilidad mental para Android hecho en Unity, en el que tienes que esquivar las bolas mágicas que te lanza un goblin y usar tu magia sabiamente para ralentizar los ataques y lanzar tu "ultimate" en el momento adecuado. Ten cuidado, ya que las bolas mágicas destacadas infligen el doble de daño. ¡Diviértete!
 
 <p align="center">
   <img src="https://github.com/DanielV-source/waf_game/assets/79198704/55aa4db1-fd50-4c9e-b938-06e80778198e" alt="drawing1" width="175" height="350"/>
@@ -335,4 +338,4 @@ Sensores implementados:
   <img src="https://github.com/DanielV-source/waf_game/assets/79198704/820a68e5-3ed5-4c2a-99ff-bb6b830c46c8" alt="drawing3" width="175" height="350"/>
 </p>
 
-Repositorio juego Unity: [https://github.com/DanielV-source/waf_game](https://github.com/DanielV-source/waf_game)
+Repositorio del minijuego Unity: [https://github.com/DanielV-source/waf_game](https://github.com/DanielV-source/waf_game)
