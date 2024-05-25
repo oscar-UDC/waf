@@ -338,4 +338,11 @@ Este es un sencillo juego de memorización y agilidad mental para Android hecho 
   <img src="https://github.com/DanielV-source/waf_game/assets/79198704/820a68e5-3ed5-4c2a-99ff-bb6b830c46c8" alt="drawing3" width="175" height="350"/>
 </p>
 
+### Sensores utilizados
+
+Micrófono: Sopla en el micrófono para ralentizar las bolas mágicas.
+Cámara: Utiliza la cámara para ver a través del juego y evitar obstáculos mientras caminas.
+Giroscopio: Mueve tu dispositivo para controlar a tu jugador y evitar las bolas mágicas.
+Acelerómetro: Agita tu móvil cuando tengas suficiente magia para lanzar tu habilidad definitiva.
+
 Repositorio del minijuego Unity: [https://github.com/DanielV-source/waf_game](https://github.com/DanielV-source/waf_game)
