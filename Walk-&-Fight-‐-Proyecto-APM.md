@@ -316,11 +316,11 @@ De estos feedback, el equipo ha acordado e implementado las siguientes recomenda
 Al iniciar la aplicación se hace una comprobación de los sensores que se necesitan y en caso de no detectar alguno de ellos, se muestra un mensaje de advertencia conforme eso puede afectar a la jugabilidad. En Unity, también se realizan comprobaciones de los sensores necesarios, siendo la cámara opcional. 
 
 Sensores implementados: 
-- **Giroscopio**: Movimiento del jugador (desplazamiento lateral) en el minijuego. 
-- **Acelerómetro**: Ataque del jugador en el minijuego. 
-- **Cámara**: Fondo del minijuego. 
-- **Micrófono**: Ralentizar ataques del enemigo en el minijuego. 
-- **Geolocalización**: Localización en mapa y punto de inicio del minijuego. 
+- **Giroscopio**: Movimiento del jugador (desplazamiento lateral) en el minijuego.
+- **Acelerómetro**: Ataque del jugador en el minijuego.
+- **Cámara**: Fondo del minijuego.
+- **Micrófono**: Ralentizar ataques del enemigo en el minijuego.
+- **Geolocalización**: Localización en mapa y punto de inicio del minijuego.
 
 ## Modelo de negocio
 
@@ -337,12 +337,5 @@ Este es un sencillo juego de memorización y agilidad mental para Android hecho 
   <img src="https://github.com/DanielV-source/waf_game/assets/79198704/b329d55d-d3a7-4d79-b12a-1ec8fb437c8c" alt="drawing2" width="175" height="350"/>
   <img src="https://github.com/DanielV-source/waf_game/assets/79198704/820a68e5-3ed5-4c2a-99ff-bb6b830c46c8" alt="drawing3" width="175" height="350"/>
 </p>
-
-### Sensores utilizados
-
-* Micrófono: Sopla en el micrófono para ralentizar las bolas mágicas.
-* Cámara: Utiliza la cámara para ver a través del juego y evitar obstáculos mientras caminas.
-* Giroscopio: Mueve tu dispositivo para controlar a tu jugador y evitar las bolas mágicas.
-* Acelerómetro: Agita tu móvil cuando tengas suficiente magia para lanzar tu habilidad definitiva.
 
 Repositorio del minijuego Unity: [https://github.com/DanielV-source/waf_game](https://github.com/DanielV-source/waf_game)
