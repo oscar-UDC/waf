@@ -156,7 +156,7 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 #### Anotaciones
 - No se utilizó AR Core, debido a su complejidad y falta de tiempo. En cambio, se optó por una aproximación 2D más interactiva.
 
-- No se ha implementado un backend para la aplicación.
+- No se ha implementado un backend dentro del código de la aplicación. Si no que se ha integrado con uno en nube usando Firestore.
 
 ## Mockups
 
@@ -181,6 +181,8 @@ El sistema se basará en una aplicación móvil que haga uso de sensores y carac
 ![Temp](https://github.com/DanielV-source/waf/assets/79198704/b8bdc112-8d56-4780-b177-82feeccf81ae)
 
 #### Anotaciones
+- Nos hemos centrado en realizar todas las pantallas de la aplicación en modo oscuro quedando sin realizar el modo claro.
+
 - El minijuego se ha implementado con otra lógica, pero manteniendo la idea original. 
 
 - La alerta por llegada a un punto de batalla no será tan prominente y consistirá en la aparición de un simple botón con el texto "Fight!".
@@ -212,12 +214,12 @@ Se implementará la toolbar que se añadirá en las pantallas requeridas, donde 
 - FightFragment: Este fragment gestiona el reto y lanza la actividad FightActivity para gestionar el servicio de Unity. Una vez terminado el reto, se reemplaza por el fragment correspondiente dependiendo del resultado del reto y del tipo de rival. 
 - WinnerFragment: En este fragment se implementa la pantalla que muestra las estadísticas del reto y se permite al usuario compartirlo en redes sociales o volver a la pantalla de inicio. En caso de continuar y siempre y cuando el reto no sea un reto final, este fragment será substituido por OSMFragment. En caso de elegir la opción de retornar al menú principal, se substituirá por el fragment MainFragment. 
 - LoserFragment: En este fragment se implementa la pantalla que muestra las estadísticas del reto y se permite al usuario volver a intentar el reto o volver a la pantalla de inicio. En el primer caso, se reemplazará el fragment por OSMFragment. En caso de elegir la opción de retornar al menú principal, se substituirá por el fragment MainFragment. 
-- ProfileFragment: Se implementa la barra lateral del menú desplegable con la toolbar y tendrá un botón para volver a la pantalla inicial y un botón para cerrar la sesión. 
+- ProfileFragment: Se implementa la barra lateral del menú desplegable con la _toolbar_ y tendrá un botón para volver a la pantalla inicial y un botón para cerrar la sesión. 
  
 
 ### ¿Quién lanza a quién y quién hace uso de los fragments o los servicios? 
 
-Para el servicio, este será lanzado por la el fragment FightFragment. Cuando el usuario se encuentre próximo al punto requerido, aparecerá en la pantalla un botón con el texto Fight. Haciendo tap en el botón, el servicio para que el reto y la aplicación se comuniquen con Unity será lanzado. Este servicio será intrgrado en FightActivity. 
+Para el servicio, este será lanzado por la el fragment FightFragment. Cuando el usuario se encuentre próximo al punto requerido, aparecerá en la pantalla un botón con el texto Fight. Haciendo tap en el botón, el servicio para que el reto y la aplicación se comuniquen con Unity será lanzado. Este servicio será integrado en FightActivity. 
 
 Para los fragments: 
 - MainFragment será cargado por MainActivity 
